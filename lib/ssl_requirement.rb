@@ -110,6 +110,7 @@ module SslRequirement
 
   private
   def ensure_proper_protocol
+    return true if ssl_allowed?
     return true if SslRequirement.disable_ssl_check?
 
     if ssl_required? && !request.ssl?
