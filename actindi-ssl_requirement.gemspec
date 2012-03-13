@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
-  s.name = "bartt-ssl_requirement"
+  s.name = "actindi-ssl_requirement"
   s.version = `cat VERSION`.strip
   s.required_rubygems_version = ">= 1.3.6"
   s.authors = [%q{RailsJedi}, %q{David Heinemeier Hansson}, %q{jcnetdev}, %q{bcurren}, %q{bmpercy}, %q{revo}, %q{nathany}, %q{bartt}, %q{Thorben Schröder}]
-  s.homepage = "https://github.com/bartt/ssl_requirement"
+  s.homepage = "https://github.com/actindi/ssl_requirement"
   s.summary = "Allow controller actions to force SSL on specific parts of the site."
   s.description = "SSL requirement adds a declarative way of specifying that certain actions should only be allowed to run under SSL, and if they're accessed without it, they should be redirected."
   s.email = "bart@thecodemill.biz"
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
-    "bartt-ssl_requirement.gemspec",
+    "actindi-ssl_requirement.gemspec",
     "init.rb",
     "lib/ssl_requirement.rb",
     "lib/url_for.rb",
